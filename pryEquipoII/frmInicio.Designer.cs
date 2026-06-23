@@ -35,6 +35,7 @@
 			this.btnInicio = new System.Windows.Forms.Button();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.pnlContenedor = new System.Windows.Forms.Panel();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -104,16 +105,24 @@
 			this.pictureBox1.Image = global::pryEquipoII.Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM;
 			this.pictureBox1.Location = new System.Drawing.Point(0, 101);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(157, 648);
+			this.pictureBox1.Size = new System.Drawing.Size(163, 648);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
+			// 
+			// pnlContenedor
+			// 
+			this.pnlContenedor.Location = new System.Drawing.Point(162, 101);
+			this.pnlContenedor.Name = "pnlContenedor";
+			this.pnlContenedor.Size = new System.Drawing.Size(1208, 648);
+			this.pnlContenedor.TabIndex = 7;
 			// 
 			// frmInicio
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1370, 749);
+			this.Controls.Add(this.pnlContenedor);
 			this.Controls.Add(this.btnHistorialMedico);
 			this.Controls.Add(this.btnConsulta);
 			this.Controls.Add(this.btnAgendarCita);
@@ -138,5 +147,6 @@
 		private System.Windows.Forms.Button btnAgendarCita;
 		private System.Windows.Forms.Button btnConsulta;
 		private System.Windows.Forms.Button btnHistorialMedico;
+		private System.Windows.Forms.Panel pnlContenedor;
 	}
 }
